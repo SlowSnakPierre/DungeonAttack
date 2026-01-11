@@ -2,215 +2,215 @@
 
 **Version 1.0.0**
 
-Un jeu de rôle roguelike basé en console où vous explorez des donjons dangereux, combattez des ennemis et améliorez votre héros.
+Un jeu de rÃ´le roguelike basÃ© en console oÃ¹ vous explorez des donjons dangereux, combattez des ennemis et amÃ©liorez votre hÃ©ros.
 
-## ?? Table des Matières
+## ğŸ“‹ Table des MatiÃ¨res
 
 - [Introduction](#introduction)
 - [Installation](#installation)
 - [Comment Jouer](#comment-jouer)
-- [Mécaniques de Jeu](#mécaniques-de-jeu)
+- [MÃ©caniques de Jeu](#mÃ©caniques-de-jeu)
 - [Camp](#camp)
 - [Conseils et Astuces](#conseils-et-astuces)
 
-## ?? Introduction
+## ğŸ® Introduction
 
-Dungeon Attack est un jeu roguelike où vous créez un héros personnalisé et explorez trois donjons différents remplis d'ennemis. Chaque run est unique, avec des combats aléatoires, des événements spéciaux et des récompenses à collecter.
+Dungeon Attack est un jeu roguelike oÃ¹ vous crÃ©ez un hÃ©ros personnalisÃ© et explorez trois donjons diffÃ©rents remplis d'ennemis. Chaque run est unique, avec des combats alÃ©atoires, des Ã©vÃ©nements spÃ©ciaux et des rÃ©compenses Ã  collecter.
 
-## ?? Installation
+## ğŸ’¾ Installation
 
-1. Clonez le dépôt ou téléchargez le projet
-2. Ouvrez le projet dans Visual Studio 2022 ou supérieur
-3. Assurez-vous que .NET 9 est installé
+1. Clonez le dÃ©pÃ´t ou tÃ©lÃ©chargez le projet
+2. Ouvrez le projet dans Visual Studio 2022 ou supÃ©rieur
+3. Assurez-vous que .NET 9 est installÃ©
 4. Compilez et lancez le projet `DungeonAttack.App`
 
-## ?? Comment Jouer
+## ğŸ¯ Comment Jouer
 
 ### Menu Principal
 
 Au lancement du jeu, vous avez plusieurs options :
 
-- **Start Dungeon** - Commencer une nouvelle aventure ou charger une partie sauvegardée
-- **Camp** - Accéder au camp pour gérer vos ressources et améliorations
-- **Options** - Ajuster les paramètres du jeu
-- **Credits** - Voir les crédits
+- **Start Dungeon** - Commencer une nouvelle aventure ou charger une partie sauvegardÃ©e
+- **Camp** - AccÃ©der au camp pour gÃ©rer vos ressources et amÃ©liorations
+- **Options** - Ajuster les paramÃ¨tres du jeu
+- **Credits** - Voir les crÃ©dits
 - **Exit** - Quitter le jeu
 
-### Création de Héros
+### CrÃ©ation de HÃ©ros
 
-1. **Entrer un nom** - Choisissez un nom pour votre héros (1-20 caractères, doit contenir au moins une lettre)
-2. **Choisir un background** - Sélectionnez une classe de départ parmi plusieurs options :
-   - Chaque background a des statistiques différentes (HP, MP, dégâts, précision, armure)
-   - Chaque background démarre avec un nombre différent de points de compétence
+1. **Entrer un nom** - Choisissez un nom pour votre hÃ©ros (1-20 caractÃ¨res, doit contenir au moins une lettre)
+2. **Choisir un background** - SÃ©lectionnez une classe de dÃ©part parmi plusieurs options :
+   - Chaque background a des statistiques diffÃ©rentes (HP, MP, dÃ©gÃ¢ts, prÃ©cision, armure)
+   - Chaque background dÃ©marre avec un nombre diffÃ©rent de points de compÃ©tence
 
-3. **Choisir les compétences** :
-   - **Active Skill** - Une compétence utilisable en combat (ex: Precise Strike, Strong Strike)
+3. **Choisir les compÃ©tences** :
+   - **Active Skill** - Une compÃ©tence utilisable en combat (ex: Precise Strike, Strong Strike)
    - **Passive Skill** - Un bonus permanent (ex: Berserk, Shield Master, Concentration)
-   - **Camp Skill** - Une compétence hors combat (ex: First Aid, Treasure Hunter, Bloody Ritual)
+   - **Camp Skill** - Une compÃ©tence hors combat (ex: First Aid, Treasure Hunter, Bloody Ritual)
 
 4. **Choisir un donjon** :
-   - **Bandits** - Brigands et déserteurs
-   - **Undeads** - Zombies, squelettes et fantômes
-   - **Swamp** - Créatures des marais
+   - **Bandits** - Brigands et dÃ©serteurs
+   - **Undeads** - Zombies, squelettes et fantÃ´mes
+   - **Swamp** - CrÃ©atures des marais
 
 ### Exploration du Donjon
 
-Le donjon alterne entre **combats** et **événements** :
+Le donjon alterne entre **combats** et **Ã©vÃ©nements** :
 
 #### Tours de Combat
 
-1. Vous rencontrez 1 à 3 ennemis selon votre chance (modifiable avec la compétence Treasure Hunter)
+1. Vous rencontrez 1 Ã  3 ennemis selon votre chance (modifiable avec la compÃ©tence Treasure Hunter)
 2. Choisissez votre adversaire
 3. Pendant le combat, vous pouvez :
    - **Attaquer** - Attaque normale
-   - **Utiliser une compétence active** - Consomme du MP pour des attaques spéciales
-   - **Fuir** - Tenter de s'échapper (pas toujours possible)
+   - **Utiliser une compÃ©tence active** - Consomme du MP pour des attaques spÃ©ciales
+   - **Fuir** - Tenter de s'Ã©chapper (pas toujours possible)
 
-4. À chaque tour :
+4. Ã€ chaque tour :
    - Vous et l'ennemi attaquez alternativement
-   - La précision détermine si l'attaque touche
-   - L'armure réduit les dégâts reçus
-   - Le blocage peut annuler une partie des dégâts (avec un bouclier)
+   - La prÃ©cision dÃ©termine si l'attaque touche
+   - L'armure rÃ©duit les dÃ©gÃ¢ts reÃ§us
+   - Le blocage peut annuler une partie des dÃ©gÃ¢ts (avec un bouclier)
 
-5. Après la victoire :
-   - Vous gagnez de l'expérience
-   - Vous récupérez du butin (pièces, ingrédients, points de Monolithe)
-   - Vous pouvez trouver de l'équipement
+5. AprÃ¨s la victoire :
+   - Vous gagnez de l'expÃ©rience
+   - Vous rÃ©cupÃ©rez du butin (piÃ¨ces, ingrÃ©dients, points de Monolithe)
+   - Vous pouvez trouver de l'Ã©quipement
 
-#### Événements
+#### Ã‰vÃ©nements
 
-Entre les combats, vous rencontrez des événements aléatoires :
+Entre les combats, vous rencontrez des Ã©vÃ©nements alÃ©atoires :
 
-- **Field Loot** - Trouvailles aléatoires
+- **Field Loot** - Trouvailles alÃ©atoires
 - **Secret Loot** - Coffres secrets
-- **Bridge Keeper** - Énigme à résoudre
+- **Bridge Keeper** - Ã‰nigme Ã  rÃ©soudre
 - **Boatman Eugene** - Marchand ambulant
-- **Pig with Saucepan** - Événement comique
-- **Black Mage** - Échange mystique
+- **Pig with Saucepan** - Ã‰vÃ©nement comique
+- **Black Mage** - Ã‰change mystique
 - **Gambler** - Pariez vos ressources
 - **Altar of Blood** - Sacrifice HP pour des bonus
-- **Warrior's Grave** - Améliorations d'équipement
-- **Exit Run** - Possibilité de quitter le donjon
+- **Warrior's Grave** - AmÃ©liorations d'Ã©quipement
+- **Exit Run** - PossibilitÃ© de quitter le donjon
 
-Chaque événement offre des choix qui affectent votre progression.
+Chaque Ã©vÃ©nement offre des choix qui affectent votre progression.
 
 #### Camp de Feu
 
-Tous les 2 niveaux, vous atteignez un feu de camp où vous pouvez :
+Tous les 2 niveaux, vous atteignez un feu de camp oÃ¹ vous pouvez :
 
-- **Se reposer** - Récupère 10% HP et MP
-- **Améliorer les statistiques** - Dépensez vos points de stats pour améliorer :
+- **Se reposer** - RÃ©cupÃ¨re 10% HP et MP
+- **AmÃ©liorer les statistiques** - DÃ©pensez vos points de stats pour amÃ©liorer :
   - HP Max (+5)
   - MP Max (+3)
-  - Dégâts (+1)
-  - Précision (+3)
+  - DÃ©gÃ¢ts (+1)
+  - PrÃ©cision (+3)
   - Armure (+2)
-  - Régénération HP (+1)
-  - Régénération MP (+1)
-  - Pénétration d'armure (+1)
+  - RÃ©gÃ©nÃ©ration HP (+1)
+  - RÃ©gÃ©nÃ©ration MP (+1)
+  - PÃ©nÃ©tration d'armure (+1)
   - Chance de blocage (+2%)
 
-- **Utiliser une compétence de camp** - Si vous en avez une
+- **Utiliser une compÃ©tence de camp** - Si vous en avez une
 - **Sauvegarder et quitter** - Sauvegarde votre progression
 
-### Montée en Niveau
+### MontÃ©e en Niveau
 
-- Tuez des ennemis pour gagner de l'expérience
+- Tuez des ennemis pour gagner de l'expÃ©rience
 - Chaque niveau vous donne :
-  - +5 HP Max et HP restaurés
-  - +3 MP Max et MP restaurés
+  - +5 HP Max et HP restaurÃ©s
+  - +3 MP Max et MP restaurÃ©s
   - +1 point de statistique
-  - Tous les 3 niveaux : +1 point de compétence
+  - Tous les 3 niveaux : +1 point de compÃ©tence
 
-## ??? Camp
+## ğŸ•ï¸ Camp
 
 Le camp est votre base entre les runs. Vous y trouvez :
 
-### 1. Entrepôt (Warehouse)
-- Stocke vos pièces entre les runs
-- Permet de transférer l'équipement de vos héros précédents
+### 1. EntrepÃ´t (Warehouse)
+- Stocke vos piÃ¨ces entre les runs
+- Permet de transfÃ©rer l'Ã©quipement de vos hÃ©ros prÃ©cÃ©dents
 
 ### 2. Boutique (Shop)
-- Achetez de l'équipement avec vos pièces
+- Achetez de l'Ã©quipement avec vos piÃ¨ces
 - L'inventaire se renouvelle entre les runs
-- Types d'équipement :
-  - **Armes** - Augmente les dégâts et la précision
+- Types d'Ã©quipement :
+  - **Armes** - Augmente les dÃ©gÃ¢ts et la prÃ©cision
   - **Armures de corps** - Augmente l'armure
   - **Casques** - Augmente l'armure
   - **Gantelets** - Augmente l'armure
   - **Boucliers** - Augmente l'armure et la chance de blocage
 
 ### 3. Monolithe
-- Dépensez vos points de Monolithe pour des améliorations permanentes :
+- DÃ©pensez vos points de Monolithe pour des amÃ©liorations permanentes :
   - HP (+5 par niveau)
   - MP (+3 par niveau)
-  - Dégâts (+1 par niveau)
-  - Précision (+3 par niveau)
+  - DÃ©gÃ¢ts (+1 par niveau)
+  - PrÃ©cision (+3 par niveau)
   - Armure (+2 par niveau)
   - Points de stats (+1 par niveau)
-  - Points de compétences (+1 par niveau)
-  - Régénération HP (+1 par niveau)
-  - Régénération MP (+1 par niveau)
-  - Pénétration d'armure (+1 par niveau)
+  - Points de compÃ©tences (+1 par niveau)
+  - RÃ©gÃ©nÃ©ration HP (+1 par niveau)
+  - RÃ©gÃ©nÃ©ration MP (+1 par niveau)
+  - PÃ©nÃ©tration d'armure (+1 par niveau)
   - Chance de blocage (+2% par niveau)
 
-### 4. Bibliothèque Occulte (Occult Library)
+### 4. BibliothÃ¨que Occulte (Occult Library)
 - Consultez et achetez des recettes de fabrication
-- Utilisez les ingrédients collectés en donjon
-- Créez des objets puissants pour améliorer votre héros
+- Utilisez les ingrÃ©dients collectÃ©s en donjon
+- CrÃ©ez des objets puissants pour amÃ©liorer votre hÃ©ros
 
 ### 5. Statistiques
 - Consultez vos statistiques totales
 - Voyez combien d'ennemis vous avez vaincus
-- Débloquez des bonus en tuant 30 ennemis d'un même type
-- Débloquez le **Boss du Monolithe** en battant les 3 boss de donjon (Bandit Leader, Zombie Knight, Ancient Snail)
+- DÃ©bloquez des bonus en tuant 30 ennemis d'un mÃªme type
+- DÃ©bloquez le **Boss du Monolithe** en battant les 3 boss de donjon (Bandit Leader, Zombie Knight, Ancient Snail)
 
-## ?? Conseils et Astuces
+## ğŸ’¡ Conseils et Astuces
 
-1. **Sauvegardez régulièrement** - Utilisez les feux de camp pour sauvegarder votre progression
+1. **Sauvegardez rÃ©guliÃ¨rement** - Utilisez les feux de camp pour sauvegarder votre progression
 
-2. **Équilibrez vos statistiques** - Ne négligez pas la précision et l'armure au profit des dégâts
+2. **Ã‰quilibrez vos statistiques** - Ne nÃ©gligez pas la prÃ©cision et l'armure au profit des dÃ©gÃ¢ts
 
-3. **Gestion du MP** - Les compétences actives sont puissantes mais coûteuses, utilisez-les judicieusement
+3. **Gestion du MP** - Les compÃ©tences actives sont puissantes mais coÃ»teuses, utilisez-les judicieusement
 
-4. **Événements** - Certains événements peuvent être risqués, évaluez les risques avant de choisir
+4. **Ã‰vÃ©nements** - Certains Ã©vÃ©nements peuvent Ãªtre risquÃ©s, Ã©valuez les risques avant de choisir
 
-5. **Progression permanente** - Les améliorations du Monolithe et les statistiques affectent TOUS vos futurs héros
+5. **Progression permanente** - Les amÃ©liorations du Monolithe et les statistiques affectent TOUS vos futurs hÃ©ros
 
-6. **Synergies** - Certaines compétences fonctionnent mieux avec certains types d'équipement (ex: Shield Master avec un bouclier)
+6. **Synergies** - Certaines compÃ©tences fonctionnent mieux avec certains types d'Ã©quipement (ex: Shield Master avec un bouclier)
 
 7. **Fuite** - N'ayez pas peur de fuir un combat difficile, surtout si vos HP sont bas
 
-8. **Treasure Hunter** - Cette compétence de camp augmente vos chances d'avoir plus de choix d'ennemis et d'événements
+8. **Treasure Hunter** - Cette compÃ©tence de camp augmente vos chances d'avoir plus de choix d'ennemis et d'Ã©vÃ©nements
 
-9. **Collectez les ingrédients** - Ils sont utiles pour les recettes de la Bibliothèque Occulte
+9. **Collectez les ingrÃ©dients** - Ils sont utiles pour les recettes de la BibliothÃ¨que Occulte
 
-10. **Tuez 30 ennemis de chaque type** - Débloque des bonus permanents pour tous vos héros futurs
+10. **Tuez 30 ennemis de chaque type** - DÃ©bloque des bonus permanents pour tous vos hÃ©ros futurs
 
-## ?? Mécaniques de Combat
+## âš”ï¸ MÃ©caniques de Combat
 
-### Calcul des Dégâts
-- Dégâts de base = aléatoire entre Min Dmg et Max Dmg
-- Dégâts finaux = Dégâts de base - (Armure de la cible - Pénétration d'armure de l'attaquant)
-- Les dégâts minimum sont toujours de 1
+### Calcul des DÃ©gÃ¢ts
+- DÃ©gÃ¢ts de base = alÃ©atoire entre Min Dmg et Max Dmg
+- DÃ©gÃ¢ts finaux = DÃ©gÃ¢ts de base - (Armure de la cible - PÃ©nÃ©tration d'armure de l'attaquant)
+- Les dÃ©gÃ¢ts minimum sont toujours de 1
 
-### Précision
-- Chaque attaque a une chance de toucher basée sur la précision
-- Précision élevée = plus de chances de toucher
+### PrÃ©cision
+- Chaque attaque a une chance de toucher basÃ©e sur la prÃ©cision
+- PrÃ©cision Ã©levÃ©e = plus de chances de toucher
 
 ### Blocage
-- Nécessite un bouclier
-- Réduit les dégâts reçus selon le coefficient de puissance de blocage
+- NÃ©cessite un bouclier
+- RÃ©duit les dÃ©gÃ¢ts reÃ§us selon le coefficient de puissance de blocage
 - La puissance de blocage augmente avec les HP actuels
 
-### Régénération
-- Régénération HP/MP : récupère des points à chaque tour
-- Repos au feu de camp : récupère 10% HP/MP Max
+### RÃ©gÃ©nÃ©ration
+- RÃ©gÃ©nÃ©ration HP/MP : rÃ©cupÃ¨re des points Ã  chaque tour
+- Repos au feu de camp : rÃ©cupÃ¨re 10% HP/MP Max
 
-## ?? Objectif Final
+## ğŸ† Objectif Final
 
-Battez les trois boss des donjons pour débloquer le **Boss du Monolithe**, le défi ultime !
+Battez les trois boss des donjons pour dÃ©bloquer le **Boss du Monolithe**, le dÃ©fi ultime !
 
 ---
 
-**Bon courage, aventurier !** ?????
+**Bon courage, aventurier !** âš”ï¸ğŸ›¡ï¸âœ¨
