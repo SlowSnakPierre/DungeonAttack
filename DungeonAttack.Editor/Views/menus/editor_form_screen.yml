@@ -1,0 +1,152 @@
+view:
+  - "█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█"
+  - "█                                                                                                                      █"
+  - "█                                            TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT                                            █"
+  - "█                                                                                                                      █"
+  - "█     AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA     █"
+  - "█     BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB     █"
+  - "█     CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC     █"
+  - "█     DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD     █"
+  - "█     EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE     █"
+  - "█     FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF     █"
+  - "█     GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG     █"
+  - "█     HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH     █"
+  - "█     IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII     █"
+  - "█     JJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJ     █"
+  - "█     KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK     █"
+  - "█     LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL     █"
+  - "█     MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM     █"
+  - "█     NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN     █"
+  - "█     OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO     █"
+  - "█     PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP     █"
+  - "█     QQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQ     █"
+  - "█     RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR     █"
+  - "█     SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS     █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                 SAVE                                             CANCEL                              █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█"
+menu:
+  -
+    show_arrow: true
+    orientation: horizontal
+    buttons:
+      SAVE:
+        x: 33
+        y: 30
+        key: 's'
+        action: save
+      CANCEL:
+        x: 77
+        y: 30
+        key: '0'
+        action: cancel
+insert_options:
+  2:
+    T:
+      methods:
+        - title
+      modifier: m
+  4:
+    A:
+      methods:
+        - line0
+      modifier: s
+  5:
+    B:
+      methods:
+        - line1
+      modifier: s
+  6:
+    C:
+      methods:
+        - line2
+      modifier: s
+  7:
+    D:
+      methods:
+        - line3
+      modifier: s
+  8:
+    E:
+      methods:
+        - line4
+      modifier: s
+  9:
+    F:
+      methods:
+        - line5
+      modifier: s
+  10:
+    G:
+      methods:
+        - line6
+      modifier: s
+  11:
+    H:
+      methods:
+        - line7
+      modifier: s
+  12:
+    I:
+      methods:
+        - line8
+      modifier: s
+  13:
+    J:
+      methods:
+        - line9
+      modifier: s
+  14:
+    K:
+      methods:
+        - line10
+      modifier: s
+  15:
+    L:
+      methods:
+        - line11
+      modifier: s
+  16:
+    M:
+      methods:
+        - line12
+      modifier: s
+  17:
+    N:
+      methods:
+        - line13
+      modifier: s
+  18:
+    O:
+      methods:
+        - line14
+      modifier: s
+  19:
+    P:
+      methods:
+        - line15
+      modifier: s
+  20:
+    Q:
+      methods:
+        - line16
+      modifier: s
+  21:
+    R:
+      methods:
+        - line17
+      modifier: s
+  22:
+    S:
+      methods:
+        - line18
+      modifier: s

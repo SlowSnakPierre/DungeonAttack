@@ -1,0 +1,47 @@
+view:
+  - "█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█"
+  - "█                                                                                                                      █"
+  - "█                                            TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT                                            █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█ MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█"
+insert_options:
+  2:
+    T:
+      methods:
+        - title
+      modifier: m
+  31:
+    M:
+      methods:
+        - message
+      modifier: m

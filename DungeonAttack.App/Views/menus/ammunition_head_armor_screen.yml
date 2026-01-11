@@ -1,0 +1,80 @@
+view:
+  - "█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█"
+  - "█                                                                                                                      █"
+  - "█                                    AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA                                        █"
+  - "█                                                                                                                      █"
+  - "█                                                                     Armor:            AAAA                           █"
+  - "█                                                                     Accuracy:         AAAA                           █"
+  - "█                                                                     Price:            AAAA                           █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                         BACK                                                         █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█"
+menu:
+  -
+    show_arrow: true
+    buttons:
+      EQUIP:
+        x: 42
+        y: 2
+        key: '1'
+        action: select_option_1
+      BACK:
+        x: 0
+        y: 30
+        key: '0'
+        action: back
+
+arts:
+  -
+    y:
+      - 2
+      - 26
+    x:
+      - 6
+      - 60
+insert_options:
+  2:
+    A:
+      methods:
+        - name
+      modifier: m
+  4:
+    A:
+      methods:
+        - armor
+      modifier: e
+  5:
+    A:
+      methods:
+        - accuracy
+      modifier: e
+  6:
+    A:
+      methods:
+        - price
+      modifier: e

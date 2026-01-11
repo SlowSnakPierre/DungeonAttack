@@ -1,0 +1,96 @@
+view:
+  - "█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█"
+  - "█                                                                                                                      █"
+  - "█                                                SCREEN REPLACEMENT TYPE                                               █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                          CONSOLE.CLEAR() NATIVE        C# STANDARD METHOD         AAAAAAAAA                          █"
+  - "█                                                                                                                      █"
+  - "█                          CLEAR PREVIOUS SCREEN         ESCAPE CODE: x1bc          AAAAAAAAA                          █"
+  - "█                                                                                                                      █"
+  - "█                          CLEAR/PUSH PREVIOUS SCREEN    ESCAPE CODE: e[H + e[2J    AAAAAAAAA                          █"
+  - "█                                                                                                                      █"
+  - "█                          PUSH PREVIOUS SCREEN          ESCAPE CODE: e[2J          AAAAAAAAA                          █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                         BACK                                                         █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█"
+menu:
+  -
+    show_arrow: true
+    buttons:
+      TYPE_1:
+        x: 26
+        y: 12
+        key: '1'
+        action: type_1
+      TYPE_2:
+        x: 26
+        y: 14
+        key: '2'
+        action: type_2
+      TYPE_3:
+        x: 26
+        y: 16
+        key: '3'
+        action: type_3
+      TYPE_4:
+        x: 26
+        y: 18
+        key: '4'
+        action: type_4
+      BACK:
+        x: 57
+        y: 30
+        key: '0'
+        action: back
+
+insert_options:
+  12:
+    A:
+      methods:
+        - screen_replacement_type__0
+      modifier: s
+  14:
+    A:
+      methods:
+        - screen_replacement_type__1
+      modifier: s
+  16:
+    A:
+      methods:
+        - screen_replacement_type__2
+      modifier: s
+  18:
+    A:
+      methods:
+        - screen_replacement_type__3
+      modifier: s
+
+
+
+
+
+
+
+
+
+#

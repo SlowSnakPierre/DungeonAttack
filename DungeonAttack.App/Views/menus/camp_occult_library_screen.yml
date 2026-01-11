@@ -1,0 +1,596 @@
+view:
+  - "█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█"
+  - "█                                   Occult Library. Buy recipe. You have AAAAA coins                                   █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█      Show:          Recipe:                                  Price:      Buy:                                        █"
+  - "█                                                                                                                      █"
+  - "█      AAAAAAAAA      BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB      CCCC        DDDDDDDDDDDDDDDDDDDDDDDDD                   █"
+  - "█      AAAAAAAAA      BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB      CCCC        DDDDDDDDDDDDDDDDDDDDDDDDD                   █"
+  - "█      AAAAAAAAA      BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB      CCCC        DDDDDDDDDDDDDDDDDDDDDDDDD                   █"
+  - "█      AAAAAAAAA      BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB      CCCC        DDDDDDDDDDDDDDDDDDDDDDDDD                   █"
+  - "█      AAAAAAAAA      BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB      CCCC        DDDDDDDDDDDDDDDDDDDDDDDDD                   █"
+  - "█      AAAAAAAAA      BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB      CCCC        DDDDDDDDDDDDDDDDDDDDDDDDD                   █"
+  - "█      AAAAAAAAA      BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB      CCCC        DDDDDDDDDDDDDDDDDDDDDDDDD                   █"
+  - "█      AAAAAAAAA      BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB      CCCC        DDDDDDDDDDDDDDDDDDDDDDDDD                   █"
+  - "█      AAAAAAAAA      BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB      CCCC        DDDDDDDDDDDDDDDDDDDDDDDDD                   █"
+  - "█      AAAAAAAAA      BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB      CCCC        DDDDDDDDDDDDDDDDDDDDDDDDD                   █"
+  - "█      AAAAAAAAA      BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB      CCCC        DDDDDDDDDDDDDDDDDDDDDDDDD                   █"
+  - "█      AAAAAAAAA      BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB      CCCC        DDDDDDDDDDDDDDDDDDDDDDDDD                   █"
+  - "█      AAAAAAAAA      BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB      CCCC        DDDDDDDDDDDDDDDDDDDDDDDDD                   █"
+  - "█      AAAAAAAAA      BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB      CCCC        DDDDDDDDDDDDDDDDDDDDDDDDD                   █"
+  - "█      AAAAAAAAA      BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB      CCCC        DDDDDDDDDDDDDDDDDDDDDDDDD                   █"
+  - "█      AAAAAAAAA      BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB      CCCC        DDDDDDDDDDDDDDDDDDDDDDDDD                   █"
+  - "█      AAAAAAAAA      BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB      CCCC        DDDDDDDDDDDDDDDDDDDDDDDDD                   █"
+  - "█      AAAAAAAAA      BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB      CCCC        DDDDDDDDDDDDDDDDDDDDDDDDD                   █"
+  - "█      AAAAAAAAA      BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB      CCCC        DDDDDDDDDDDDDDDDDDDDDDDDD                   █"
+  - "█      AAAAAAAAA      BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB      CCCC        DDDDDDDDDDDDDDDDDDDDDDDDD                   █"
+  - "█      AAAAAAAAA      BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB      CCCC        DDDDDDDDDDDDDDDDDDDDDDDDD                   █"
+  - "█      AAAAAAAAA      BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB      CCCC        DDDDDDDDDDDDDDDDDDDDDDDDD                   █"
+  - "█      AAAAAAAAA      BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB      CCCC        DDDDDDDDDDDDDDDDDDDDDDDDD                   █"
+  - "█      AAAAAAAAA      BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB      CCCC        DDDDDDDDDDDDDDDDDDDDDDDDD                   █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                         BACK                                                         █"
+  - "█                                                                                                                      █"
+  - "█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█"
+# arts:
+#   -
+#     y:
+#       - 3
+#       - 29
+#     x:
+#       - 66
+#       - 117
+menu:
+  -
+    show_arrow: true
+    buttons:
+      OPTION_1:
+        x: 7
+        y: 6
+        key: '1'
+        action: select_option_1
+      OPTION_2:
+        x: 7
+        y: 7
+        key: '2'
+        action: select_option_2
+      OPTION_3:
+        x: 7
+        y: 8
+        key: '3'
+        action: select_option_3
+      OPTION_4:
+        x: 7
+        y: 9
+        key: '4'
+        action: select_option_4
+      OPTION_5:
+        x: 7
+        y: 10
+        key: '5'
+        action: select_option_5
+      OPTION_6:
+        x: 7
+        y: 11
+        key: '6'
+        action: select_option_6
+      OPTION_7:
+        x: 7
+        y: 12
+        key: '7'
+        action: select_option_7
+      OPTION_8:
+        x: 7
+        y: 13
+        key: '8'
+        action: select_option_8
+      OPTION_9:
+        x: 7
+        y: 14
+        key: '9'
+        action: select_option_9
+      OPTION_10:
+        x: 7
+        y: 15
+        key: 'A'
+        action: select_option_10
+      OPTION_11:
+        x: 7
+        y: 16
+        key: 'B'
+        action: select_option_11
+      OPTION_12:
+        x: 7
+        y: 17
+        key: 'C'
+        action: select_option_12
+      OPTION_13:
+        x: 7
+        y: 18
+        key: 'D'
+        action: select_option_13
+      OPTION_14:
+        x: 7
+        y: 19
+        key: 'E'
+        action: select_option_14
+      OPTION_15:
+        x: 7
+        y: 20
+        key: 'F'
+        action: select_option_15
+      OPTION_16:
+        x: 7
+        y: 21
+        key: 'G'
+        action: select_option_16
+      OPTION_17:
+        x: 7
+        y: 22
+        key: 'H'
+        action: select_option_17
+      OPTION_18:
+        x: 7
+        y: 23
+        key: 'I'
+        action: select_option_18
+      OPTION_19:
+        x: 7
+        y: 24
+        key: 'J'
+        action: select_option_19
+      OPTION_20:
+        x: 7
+        y: 25
+        key: 'K'
+        action: select_option_20
+      OPTION_21:
+        x: 7
+        y: 26
+        key: 'L'
+        action: select_option_21
+      OPTION_22:
+        x: 7
+        y: 27
+        key: 'M'
+        action: select_option_22
+      OPTION_23:
+        x: 7
+        y: 28
+        key: 'N'
+        action: select_option_23
+      OPTION_24:
+        x: 7
+        y: 29
+        key: 'O'
+        action: select_option_24
+      BACK:
+        x: 0
+        y: 31
+        key: '0'
+        action: back
+
+insert_options:
+  1:
+    A:
+      methods:
+        - coins
+      modifier: m
+  6:
+    A:
+      methods:
+        - show__1
+      modifier: s
+    B:
+      methods:
+        - name__1
+      modifier: s
+    C:
+      methods:
+        - price__1
+      modifier: s
+    D:
+      methods:
+        - status__1
+      modifier: s
+  7:
+    A:
+      methods:
+        - show__2
+      modifier: s
+    B:
+      methods:
+        - name__2
+      modifier: s
+    C:
+      methods:
+        - price__2
+      modifier: s
+    D:
+      methods:
+        - status__2
+      modifier: s
+  8:
+    A:
+      methods:
+        - show__3
+      modifier: s
+    B:
+      methods:
+        - name__3
+      modifier: s
+    C:
+      methods:
+        - price__3
+      modifier: s
+    D:
+      methods:
+        - status__3
+      modifier: s
+  9:
+    A:
+      methods:
+        - show__4
+      modifier: s
+    B:
+      methods:
+        - name__4
+      modifier: s
+    C:
+      methods:
+        - price__4
+      modifier: s
+    D:
+      methods:
+        - status__4
+      modifier: s
+  10:
+    A:
+      methods:
+        - show__5
+      modifier: s
+    B:
+      methods:
+        - name__5
+      modifier: s
+    C:
+      methods:
+        - price__5
+      modifier: s
+    D:
+      methods:
+        - status__5
+      modifier: s
+  11:
+    A:
+      methods:
+        - show__6
+      modifier: s
+    B:
+      methods:
+        - name__6
+      modifier: s
+    C:
+      methods:
+        - price__6
+      modifier: s
+    D:
+      methods:
+        - status__6
+      modifier: s
+  12:
+    A:
+      methods:
+        - show__7
+      modifier: s
+    B:
+      methods:
+        - name__7
+      modifier: s
+    C:
+      methods:
+        - price__7
+      modifier: s
+    D:
+      methods:
+        - status__7
+      modifier: s
+  13:
+    A:
+      methods:
+        - show__8
+      modifier: s
+    B:
+      methods:
+        - name__8
+      modifier: s
+    C:
+      methods:
+        - price__8
+      modifier: s
+    D:
+      methods:
+        - status__8
+      modifier: s
+  14:
+    A:
+      methods:
+        - show__9
+      modifier: s
+    B:
+      methods:
+        - name__9
+      modifier: s
+    C:
+      methods:
+        - price__9
+      modifier: s
+    D:
+      methods:
+        - status__9
+      modifier: s
+  15:
+    A:
+      methods:
+        - show__10
+      modifier: s
+    B:
+      methods:
+        - name__10
+      modifier: s
+    C:
+      methods:
+        - price__10
+      modifier: s
+    D:
+      methods:
+        - status__10
+      modifier: s
+  16:
+    A:
+      methods:
+        - show__11
+      modifier: s
+    B:
+      methods:
+        - name__11
+      modifier: s
+    C:
+      methods:
+        - price__11
+      modifier: s
+    D:
+      methods:
+        - status__11
+      modifier: s
+  17:
+    A:
+      methods:
+        - show__12
+      modifier: s
+    B:
+      methods:
+        - name__12
+      modifier: s
+    C:
+      methods:
+        - price__12
+      modifier: s
+    D:
+      methods:
+        - status__12
+      modifier: s
+  18:
+    A:
+      methods:
+        - show__13
+      modifier: s
+    B:
+      methods:
+        - name__13
+      modifier: s
+    C:
+      methods:
+        - price__13
+      modifier: s
+    D:
+      methods:
+        - status__13
+      modifier: s
+  19:
+    A:
+      methods:
+        - show__14
+      modifier: s
+    B:
+      methods:
+        - name__14
+      modifier: s
+    C:
+      methods:
+        - price__14
+      modifier: s
+    D:
+      methods:
+        - status__14
+      modifier: s
+  20:
+    A:
+      methods:
+        - show__15
+      modifier: s
+    B:
+      methods:
+        - name__15
+      modifier: s
+    C:
+      methods:
+        - price__15
+      modifier: s
+    D:
+      methods:
+        - status__15
+      modifier: s
+  21:
+    A:
+      methods:
+        - show__16
+      modifier: s
+    B:
+      methods:
+        - name__16
+      modifier: s
+    C:
+      methods:
+        - price__16
+      modifier: s
+    D:
+      methods:
+        - status__16
+      modifier: s
+  22:
+    A:
+      methods:
+        - show__17
+      modifier: s
+    B:
+      methods:
+        - name__17
+      modifier: s
+    C:
+      methods:
+        - price__17
+      modifier: s
+    D:
+      methods:
+        - status__17
+      modifier: s
+  23:
+    A:
+      methods:
+        - show__18
+      modifier: s
+    B:
+      methods:
+        - name__18
+      modifier: s
+    C:
+      methods:
+        - price__18
+      modifier: s
+    D:
+      methods:
+        - status__18
+      modifier: s
+  24:
+    A:
+      methods:
+        - show__19
+      modifier: s
+    B:
+      methods:
+        - name__19
+      modifier: s
+    C:
+      methods:
+        - price__19
+      modifier: s
+    D:
+      methods:
+        - status__19
+      modifier: s
+  25:
+    A:
+      methods:
+        - show__20
+      modifier: s
+    B:
+      methods:
+        - name__20
+      modifier: s
+    C:
+      methods:
+        - price__20
+      modifier: s
+    D:
+      methods:
+        - status__20
+      modifier: s
+  26:
+    A:
+      methods:
+        - show__21
+      modifier: s
+    B:
+      methods:
+        - name__21
+      modifier: s
+    C:
+      methods:
+        - price__21
+      modifier: s
+    D:
+      methods:
+        - status__21
+      modifier: s
+  27:
+    A:
+      methods:
+        - show__22
+      modifier: s
+    B:
+      methods:
+        - name__22
+      modifier: s
+    C:
+      methods:
+        - price__22
+      modifier: s
+    D:
+      methods:
+        - status__22
+      modifier: s
+  28:
+    A:
+      methods:
+        - show__23
+      modifier: s
+    B:
+      methods:
+        - name__23
+      modifier: s
+    C:
+      methods:
+        - price__23
+      modifier: s
+    D:
+      methods:
+        - status__23
+      modifier: s
+  29:
+    A:
+      methods:
+        - show__24
+      modifier: s
+    B:
+      methods:
+        - name__24
+      modifier: s
+    C:
+      methods:
+        - price__24
+      modifier: s
+    D:
+      methods:
+        - status__24
+      modifier: s
+
+
+
+
+
+
+
+#

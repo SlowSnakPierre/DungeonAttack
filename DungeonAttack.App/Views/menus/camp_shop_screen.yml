@@ -1,0 +1,396 @@
+view:
+  - "█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█"
+  - "█                                              SHOP. You have AAAAA coins                                              █"
+  - "█                                                                                                                      █"
+  - "█      SHOW:        WEAPON:                      PRICE:    BUY:                    IN YOUR WAREHOUSE:                  █"
+  - "█    AAAAAAAAAAAAAAAAAAAAAAAAA    PPPPP                                                                                █"
+  - "█    AAAAAAAAAAAAAAAAAAAAAAAAA    PPPPP              BBBBBBBBBBBBBBBBBBBBBBBBB                                         █"
+  - "█    AAAAAAAAAAAAAAAAAAAAAAAAA    PPPPP              Show:                                                             █"
+  - "█                                                                                                                      █"
+  - "█      SHOW:        BODY ARMOR:                  PRICE:    BUY:                                                        █"
+  - "█    AAAAAAAAAAAAAAAAAAAAAAAAA    PPPPP                                                                                █"
+  - "█    AAAAAAAAAAAAAAAAAAAAAAAAA    PPPPP              BBBBBBBBBBBBBBBBBBBBBBBBB                                         █"
+  - "█    AAAAAAAAAAAAAAAAAAAAAAAAA    PPPPP              Show:                                                             █"
+  - "█                                                                                                                      █"
+  - "█      SHOW:        HEAD ARMOR:                  PRICE:    BUY:                                                        █"
+  - "█    AAAAAAAAAAAAAAAAAAAAAAAAA    PPPPP                                                                                █"
+  - "█    AAAAAAAAAAAAAAAAAAAAAAAAA    PPPPP              BBBBBBBBBBBBBBBBBBBBBBBBB                                         █"
+  - "█    AAAAAAAAAAAAAAAAAAAAAAAAA    PPPPP              Show:                                                             █"
+  - "█                                                                                                                      █"
+  - "█      SHOW:        ARMS ARMOR:                  PRICE:    BUY:                                                        █"
+  - "█    AAAAAAAAAAAAAAAAAAAAAAAAA    PPPPP                                                                                █"
+  - "█    AAAAAAAAAAAAAAAAAAAAAAAAA    PPPPP              BBBBBBBBBBBBBBBBBBBBBBBBB                                         █"
+  - "█    AAAAAAAAAAAAAAAAAAAAAAAAA    PPPPP              Show:                                                             █"
+  - "█                                                                                                                      █"
+  - "█      SHOW:        SHIELD:                      PRICE:    BUY:                                                        █"
+  - "█    AAAAAAAAAAAAAAAAAAAAAAAAA    PPPPP                                                                                █"
+  - "█    AAAAAAAAAAAAAAAAAAAAAAAAA    PPPPP              BBBBBBBBBBBBBBBBBBBBBBBBB                                         █"
+  - "█    AAAAAAAAAAAAAAAAAAAAAAAAA    PPPPP              Show:                                                             █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█           !! You can only store one item of each type, if you buy another, the old one will be replaced !!           █"
+  - "█                                    (maybe it will change in new versions)                                            █"
+  - "█                                                                                                                      █"
+  - "█                                                         BACK                                                         █"
+  - "█                                                                                                                      █"
+  - "█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█"
+menu:
+  -
+    show_arrow: true
+    buttons:
+      OPTION_A:
+        x: 1
+        y: 3
+        key: 'A'
+        action: select_a
+      OPTION_B:
+        x: 51
+        y: 4
+        key: 'B'
+        action: select_b
+      OPTION_C:
+        x: 67
+        y: 5
+        key: 'C'
+        action: select_c
+      OPTION_D:
+        x: 82
+        y: 8
+        key: 'D'
+        action: select_d
+      OPTION_E:
+        x: 51
+        y: 9
+        key: 'E'
+        action: select_e
+      OPTION_F:
+        x: 67
+        y: 10
+        key: 'F'
+        action: select_f
+      OPTION_G:
+        x: 82
+        y: 13
+        key: 'G'
+        action: select_g
+      OPTION_H:
+        x: 51
+        y: 14
+        key: 'H'
+        action: select_h
+      OPTION_I:
+        x: 67
+        y: 15
+        key: 'I'
+        action: select_i
+      OPTION_J:
+        x: 82
+        y: 18
+        key: 'J'
+        action: select_j
+      OPTION_K:
+        x: 50
+        y: 19
+        key: 'K'
+        action: select_k
+      OPTION_L:
+        x: 67
+        y: 20
+        key: 'L'
+        action: select_l
+      OPTION_M:
+        x: 82
+        y: 23
+        key: 'M'
+        action: select_m
+      OPTION_N:
+        x: 50
+        y: 24
+        key: 'N'
+        action: select_n
+      OPTION_O:
+        x: 67
+        y: 25
+        key: 'O'
+        action: select_o
+      BACK:
+        x: 82
+        y: 31
+        key: '0'
+        action: back
+
+      OPTION_1:
+        x: 29
+        y: 3
+        key: '1'
+        action: select_option_1
+      OPTION_2:
+        x: 29
+        y: 4
+        key: '2'
+        action: select_option_2
+      OPTION_3:
+        x: 29
+        y: 5
+        key: '3'
+        action: select_option_3
+      OPTION_V:
+        x: 63
+        y: 5
+        key: 'V'
+        action: select_v
+      OPTION_4:
+        x: 29
+        y: 8
+        key: '4'
+        action: select_option_4
+      OPTION_5:
+        x: 29
+        y: 9
+        key: '5'
+        action: select_option_5
+      OPTION_6:
+        x: 29
+        y: 10
+        key: '6'
+        action: select_option_6
+      OPTION_W:
+        x: 63
+        y: 10
+        key: 'W'
+        action: select_w
+      OPTION_7:
+        x: 29
+        y: 13
+        key: '7'
+        action: select_option_7
+      OPTION_8:
+        x: 29
+        y: 14
+        key: '8'
+        action: select_option_8
+      OPTION_9:
+        x: 29
+        y: 15
+        key: '9'
+        action: select_option_9
+      OPTION_X:
+        x: 63
+        y: 15
+        key: 'X'
+        action: select_x
+      OPTION_10:
+        x: 29
+        y: 18
+        key: '10'
+        action: select_option_10
+      OPTION_11:
+        x: 29
+        y: 19
+        key: '11'
+        action: select_option_11
+      OPTION_12:
+        x: 29
+        y: 20
+        key: '12'
+        action: select_option_12
+      OPTION_Y:
+        x: 63
+        y: 20
+        key: 'Y'
+        action: select_y
+      OPTION_13:
+        x: 29
+        y: 23
+        key: '13'
+        action: select_option_13
+      OPTION_14:
+        x: 29
+        y: 24
+        key: '14'
+        action: select_option_14
+      OPTION_15:
+        x: 29
+        y: 25
+        key: '15'
+        action: select_option_15
+      OPTION_Z:
+        x: 63
+        y: 25
+        key: 'Z'
+        action: select_z
+insert_options:
+  1:
+    A:
+      methods:
+        - coins
+      modifier: m
+  # WEAPON:
+  4:
+    A:
+      methods:
+        - weapon__0
+      modifier: s
+    P:
+      methods:
+        - weapon__0__price
+      modifier: e
+  5:
+    A:
+      methods:
+        - weapon__1
+      modifier: s
+    P:
+      methods:
+        - weapon__1__price
+      modifier: e
+    B:
+      methods:
+        - weapon
+      modifier: s
+  6:
+    A:
+      methods:
+        - weapon__2
+      modifier: s
+    P:
+      methods:
+        - weapon__2__price
+      modifier: e
+  # BODY ARMOR:
+  9:
+    A:
+      methods:
+        - body_armor__0
+      modifier: s
+    P:
+      methods:
+        - body_armor__0__price
+      modifier: e
+  10:
+    A:
+      methods:
+        - body_armor__1
+      modifier: s
+    P:
+      methods:
+        - body_armor__1__price
+      modifier: e
+    B:
+      methods:
+        - body_armor
+      modifier: s
+  11:
+    A:
+      methods:
+        - body_armor__2
+      modifier: s
+    P:
+      methods:
+        - body_armor__2__price
+      modifier: e
+  # HEAD ARMOR:
+  14:
+    A:
+      methods:
+        - head_armor__0
+      modifier: s
+    P:
+      methods:
+        - head_armor__0__price
+      modifier: e
+  15:
+    A:
+      methods:
+        - head_armor__1
+      modifier: s
+    P:
+      methods:
+        - head_armor__1__price
+      modifier: e
+    B:
+      methods:
+        - head_armor
+      modifier: s
+  16:
+    A:
+      methods:
+        - head_armor__2
+      modifier: s
+    P:
+      methods:
+        - head_armor__2__price
+      modifier: e
+  # ARMS ARMOR:
+  19:
+    A:
+      methods:
+        - arms_armor__0
+      modifier: s
+    P:
+      methods:
+        - arms_armor__0__price
+      modifier: e
+  20:
+    A:
+      methods:
+        - arms_armor__1
+      modifier: s
+    P:
+      methods:
+        - arms_armor__1__price
+      modifier: e
+    B:
+      methods:
+        - arms_armor
+      modifier: s
+  21:
+    A:
+      methods:
+        - arms_armor__2
+      modifier: s
+    P:
+      methods:
+        - arms_armor__2__price
+      modifier: e
+  # SHIELD:
+  24:
+    A:
+      methods:
+        - shield__0
+      modifier: s
+    P:
+      methods:
+        - shield__0__price
+      modifier: e
+  25:
+    A:
+      methods:
+        - shield__1
+      modifier: s
+    P:
+      methods:
+        - shield__1__price
+      modifier: e
+    B:
+      methods:
+        - shield
+      modifier: s
+  26:
+    A:
+      methods:
+        - shield__2
+      modifier: s
+    P:
+      methods:
+        - shield__2__price
+      modifier: e
+
+
+
+
+
+
+
+
+#

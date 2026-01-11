@@ -1,0 +1,223 @@
+view:
+  - "█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█"
+  - "█                                               MONOLITH has AAAAA points                                              █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█      STAT                   HAS NOW      PRICE         BUY                                                           █"
+  - "█     ───────────────────────────────────────────────────────────                                                      █"
+  - "█      +1 HP                   AAAAA       BBBBB                                                                       █"
+  - "█     -----------------------------------------------------------                                                      █"
+  - "█      +1 MP                   AAAAA       BBBBB                                                                       █"
+  - "█     -----------------------------------------------------------                                                      █"
+  - "█      +1 Accuracy             AAAAA       BBBBB                                                                       █"
+  - "█     -----------------------------------------------------------                                                      █"
+  - "█      +1 Damage               AAAAA       BBBBB                                                                       █"
+  - "█     -----------------------------------------------------------                                                      █"
+  - "█      +1 Stat point           AAAAA       BBBBB                                                                       █"
+  - "█     -----------------------------------------------------------                                                      █"
+  - "█      +1 Skill point          AAAAA       BBBBB                                                                       █"
+  - "█     -----------------------------------------------------------                                                      █"
+  - "█      +1 Armor                AAAAA       BBBBB                                                                       █"
+  - "█     -----------------------------------------------------------                                                      █"
+  - "█      +1 Regen-HP             AAAAA       BBBBB                                                                       █"
+  - "█     -----------------------------------------------------------                                                      █"
+  - "█      +1 Regen-MP             AAAAA       BBBBB                                                                       █"
+  - "█     -----------------------------------------------------------                                                      █"
+  - "█      +1 Armor penetration    AAAAA       BBBBB                                                                       █"
+  - "█     -----------------------------------------------------------                                                      █"
+  - "█      +1 Block chance         AAAAA       BBBBB                                                                       █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                         BACK                                                         █"
+  - "█                                                                                                                      █"
+  - "█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█"
+menu:
+  -
+    show_arrow: true
+    buttons:
+      OPTION_1:
+        x: 5
+        y: 6
+        key: '1'
+        action: select_option_1
+      OPTION_2:
+        x: 5
+        y: 8
+        key: '2'
+        action: select_option_2
+      OPTION_3:
+        x: 5
+        y: 10
+        key: '3'
+        action: select_option_3
+      OPTION_4:
+        x: 5
+        y: 12
+        key: '4'
+        action: select_option_4
+      OPTION_5:
+        x: 5
+        y: 14
+        key: '5'
+        action: select_option_5
+      OPTION_6:
+        x: 5
+        y: 16
+        key: '6'
+        action: select_option_6
+      OPTION_7:
+        x: 5
+        y: 18
+        key: '7'
+        action: select_option_7
+      OPTION_8:
+        x: 5
+        y: 20
+        key: '8'
+        action: select_option_8
+      OPTION_9:
+        x: 5
+        y: 22
+        key: '9'
+        action: select_option_9
+      OPTION_10:
+        x: 5
+        y: 24
+        key: 'A'
+        action: select_option_10
+      OPTION_11:
+        x: 5
+        y: 26
+        key: 'B'
+        action: select_option_11
+      BACK:
+        x: 57
+        y: 32
+        key: '0'
+        action: back
+
+arts:
+  -
+    y:
+      - 3
+      - 29
+    x:
+      - 66
+      - 117
+insert_options:
+  1:
+    A:
+      methods:
+        - points
+      modifier: m
+  6:
+    A:
+      methods:
+        - hp
+      modifier: s
+    B:
+      methods:
+        - hp__p
+      modifier: s
+  8:
+    A:
+      methods:
+        - mp
+      modifier: s
+    B:
+      methods:
+        - mp__p
+      modifier: s
+  10:
+    A:
+      methods:
+        - accuracy
+      modifier: s
+    B:
+      methods:
+        - accuracy__p
+      modifier: s
+  12:
+    A:
+      methods:
+        - damage
+      modifier: s
+    B:
+      methods:
+        - damage__p
+      modifier: s
+  14:
+    A:
+      methods:
+        - stat_points
+      modifier: s
+    B:
+      methods:
+        - stat_points__p
+      modifier: s
+  16:
+    A:
+      methods:
+        - skill_points
+      modifier: s
+    B:
+      methods:
+        - skill_points__p
+      modifier: s
+  18:
+    A:
+      methods:
+        - armor
+      modifier: s
+    B:
+      methods:
+        - armor__p
+      modifier: s
+  20:
+    A:
+      methods:
+        - regen_hp
+      modifier: s
+    B:
+      methods:
+        - regen_hp__p
+      modifier: s
+  22:
+    A:
+      methods:
+        - regen_mp
+      modifier: s
+    B:
+      methods:
+        - regen_mp__p
+      modifier: s
+  24:
+    A:
+      methods:
+        - armor_penetration
+      modifier: s
+    B:
+      methods:
+        - armor_penetration__p
+      modifier: s
+  26:
+    A:
+      methods:
+        - block_chance
+      modifier: s
+    B:
+      methods:
+        - block_chance__p
+      modifier: s
+
+
+
+
+
+
+
+
+#

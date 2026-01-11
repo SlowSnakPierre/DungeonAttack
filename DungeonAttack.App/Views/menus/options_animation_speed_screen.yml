@@ -1,0 +1,107 @@
+view:
+  - "█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█"
+  - "█                                                                                                                      █"
+  - "█                                                    ANIMATION SPEED                                                   █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                             FASTEST   0.1 SEC   AAAAAAAAA                                            █"
+  - "█                                                                                                                      █"
+  - "█                                             FAST      0.4 SEC   AAAAAAAAA                                            █"
+  - "█                                                                                                                      █"
+  - "█                                             NORMAL    0.7 SEC   AAAAAAAAA                                            █"
+  - "█                                                                                                                      █"
+  - "█                                             SLOW      1.0 SEC   AAAAAAAAA                                            █"
+  - "█                                                                                                                      █"
+  - "█                                             SLOWEST   1.5 SEC   AAAAAAAAA                                            █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                         BACK                                                         █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█"
+menu:
+  -
+    show_arrow: true
+    buttons:
+      SPEED_1:
+        x: 45
+        y: 13
+        key: '1'
+        action: speed_1
+      SPEED_2:
+        x: 45
+        y: 15
+        key: '2'
+        action: speed_2
+      SPEED_3:
+        x: 45
+        y: 17
+        key: '3'
+        action: speed_3
+      SPEED_4:
+        x: 45
+        y: 19
+        key: '4'
+        action: speed_4
+      SPEED_5:
+        x: 45
+        y: 21
+        key: '5'
+        action: speed_5
+      BACK:
+        x: 57
+        y: 31
+        key: '0'
+        action: back
+
+insert_options:
+  13:
+    A:
+      methods:
+        - enemy_actions_animation_speed__0
+      modifier: s
+  15:
+    A:
+      methods:
+        - enemy_actions_animation_speed__1
+      modifier: s
+  17:
+    A:
+      methods:
+        - enemy_actions_animation_speed__2
+      modifier: s
+  19:
+    A:
+      methods:
+        - enemy_actions_animation_speed__3
+      modifier: s
+  21:
+    A:
+      methods:
+        - enemy_actions_animation_speed__4
+      modifier: s
+
+
+
+
+
+
+
+
+
+#

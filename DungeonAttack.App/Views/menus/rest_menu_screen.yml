@@ -1,0 +1,120 @@
+view:
+  - "█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                       CAMPFIRE ACTIONS               █"
+  - "█                                                                                                                      █"
+  - "█                                                                                 Show hero info                       █"
+  - "█                                                                                                                      █"
+  - "█                                                                                 Spend stat points  AAA               █"
+  - "█                                                                                                                      █"
+  - "█                                                                                 Spend skill points  AAA              █"
+  - "█                                                                                                                      █"
+  - "█                                                                                 Use camp skill                       █" 
+  - "█                                                                                                                      █"
+  - "█                                                                                 Enhance ammunition                   █"
+  - "█                                                                                                                      █"
+  - "█                                                                                 Show event quests                    █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                 Save & exit game                     █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                 Let's move on                        █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA          █"
+  - "█         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA          █"
+  - "█         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA          █"
+  - "█                                                                                                                      █"
+  - "█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█"
+menu:
+  -
+    show_arrow: true
+    buttons:
+      OPTION_1:
+        x: 81
+        y: 9
+        key: '1'
+        action: select_option_1
+      OPTION_2:
+        x: 81
+        y: 11
+        key: '2'
+        action: select_option_2
+      OPTION_3:
+        x: 81
+        y: 13
+        key: '3'
+        action: select_option_3
+      OPTION_4:
+        x: 81
+        y: 15
+        key: '4'
+        action: select_option_4
+      OPTION_5:
+        x: 81
+        y: 17
+        key: '5'
+        action: select_option_5
+      OPTION_6:
+        x: 81
+        y: 19
+        key: '6'
+        action: select_option_6
+      OPTION_7:
+        x: 81
+        y: 22
+        key: '7'
+        action: select_option_7
+      BACK:
+        x: 81
+        y: 25
+        key: '0'
+        action: back
+
+arts:
+  -
+    y:
+      - 4
+      - 27
+    x:
+      - 5
+      - 74
+insert_options:
+  11:
+    A:
+      methods:
+        - additional_1
+      modifier: e
+  13:
+    A:
+      methods:
+        - additional_2
+      modifier: e
+  # 15:
+  #   A:
+  #     methods:
+  #       - additional_3
+  #     modifier: e
+  30:
+    A:
+      methods:
+        - log_0
+      modifier: m
+  31:
+    A:
+      methods:
+        - log_1
+      modifier: m
+  32:
+    A:
+      methods:
+        - log_2
+      modifier: m

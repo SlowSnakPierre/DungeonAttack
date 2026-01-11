@@ -1,0 +1,29 @@
+{
+  "ammunition": {
+    "weapon": [
+      "without",
+      "without",
+      "without"
+    ],
+    "body_armor": [
+      "without",
+      "without",
+      "without"
+    ],
+    "head_armor": [
+      "without",
+      "without",
+      "without"
+    ],
+    "arms_armor": [
+      "without",
+      "without",
+      "without"
+    ],
+    "shield": [
+      "without",
+      "without",
+      "without"
+    ]
+  }
+}

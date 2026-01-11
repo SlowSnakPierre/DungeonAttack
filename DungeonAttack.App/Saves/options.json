@@ -1,0 +1,4 @@
+{
+  "enemy_actions_animation_speed": 0.7,
+  "screen_replacement_type": "console_clear"
+}

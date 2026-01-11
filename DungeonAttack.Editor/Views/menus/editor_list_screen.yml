@@ -1,0 +1,162 @@
+view:
+  - "█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█"
+  - "█                                                                                                                      █"
+  - "█                                            TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT                                            █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█          AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA        █"
+  - "█                                                                                                                      █"
+  - "█          BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB        █"
+  - "█                                                                                                                      █"
+  - "█          CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC        █"
+  - "█                                                                                                                      █"
+  - "█          DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD        █"
+  - "█                                                                                                                      █"
+  - "█          EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE        █"
+  - "█                                                                                                                      █"
+  - "█          FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF        █"
+  - "█                                                                                                                      █"
+  - "█          GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG        █"
+  - "█                                                                                                                      █"
+  - "█          HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH        █"
+  - "█                                                                                                                      █"
+  - "█          IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII        █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                            PPPPPPPPPPPPPPPPPPPPPPPPPPPPPP                                            █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                          ADD NEW              PREV PAGE              NEXT PAGE              BACK                     █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█"
+menu:
+  -
+    show_arrow: true
+    items_count: 9
+    buttons:
+      "ITEM_0":
+        x: 10
+        y: 6
+        key: '1'
+        action: select_0
+      "ITEM_1":
+        x: 10
+        y: 8
+        key: '2'
+        action: select_1
+      "ITEM_2":
+        x: 10
+        y: 10
+        key: '3'
+        action: select_2
+      "ITEM_3":
+        x: 10
+        y: 12
+        key: '4'
+        action: select_3
+      "ITEM_4":
+        x: 10
+        y: 14
+        key: '5'
+        action: select_4
+      "ITEM_5":
+        x: 10
+        y: 16
+        key: '6'
+        action: select_5
+      "ITEM_6":
+        x: 10
+        y: 18
+        key: '7'
+        action: select_6
+      "ITEM_7":
+        x: 10
+        y: 20
+        key: '8'
+        action: select_7
+      "ITEM_8":
+        x: 10
+        y: 22
+        key: '9'
+        action: select_8
+      "ADD NEW":
+        x: 26
+        y: 30
+        key: 'a'
+        action: add
+      "PREV PAGE":
+        x: 47
+        y: 30
+        key: 'p'
+        action: prev
+      "NEXT PAGE":
+        x: 70
+        y: 30
+        key: 'n'
+        action: next
+      "BACK":
+        x: 93
+        y: 30
+        key: '0'
+        action: back
+insert_options:
+  2:
+    T:
+      methods:
+        - title
+      modifier: m
+  6:
+    A:
+      methods:
+        - item0
+      modifier: s
+  8:
+    B:
+      methods:
+        - item1
+      modifier: s
+  10:
+    C:
+      methods:
+        - item2
+      modifier: s
+  12:
+    D:
+      methods:
+        - item3
+      modifier: s
+  14:
+    E:
+      methods:
+        - item4
+      modifier: s
+  16:
+    F:
+      methods:
+        - item5
+      modifier: s
+  18:
+    G:
+      methods:
+        - item6
+      modifier: s
+  20:
+    H:
+      methods:
+        - item7
+      modifier: s
+  22:
+    I:
+      methods:
+        - item8
+      modifier: s
+  26:
+    P:
+      methods:
+        - page_info
+      modifier: m
